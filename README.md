@@ -85,3 +85,27 @@ Cat
           Learn React
         </a>
       </header>
+
+// start
+function Form() {
+const [text, setText] = '';
+
+function handleChange(event) {
+setText(event.currentTarget.value);
+}
+
+return (
+<div>
+<label>
+Choose a color​
+<input type="text" value={text} onChange={handleChange} />
+</label>
+</div>
+);
+}
+//finish
+
+const hue = process.argv[2];
+const luminosity = process.argv[3];
+const color = randomColor( {hue: hue, luminosity: luminosity} );
+console.log(########);
