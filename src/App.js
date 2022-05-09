@@ -28,6 +28,7 @@ export default function App() {
       <button onClick={() => setColor(randomColor.randomColor())}>
         Generate
       </button>
+      <h2>Push!</h2>
     </div>
   );
 }
